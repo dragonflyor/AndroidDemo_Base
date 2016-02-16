@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/siv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_launcher"
+        android:layout_centerVertical="true"/>
+    
+    <TextView 
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/siv"
+        android:text="这是新闻的标题标题是的发生大幅度是广东省发给各个地方法规和法国和规范"
+        android:textSize="22sp"
+        android:singleLine="true"
+        />
+    
+       <TextView 
+         android:id="@+id/tv_detail" 
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/siv"
+        android:layout_toEndOf="@id/tv_title"
+        android:layout_below="@id/tv_title"
+        android:text="这是新闻内容是的发生的法师打发的说法是的发生法是的发生法是的发生的发生的发生"
+        android:lines="2"
+        android:textColor="@color/abc_search_url_text_holo"
+        />
+       
+       <TextView 
+        android:id="@+id/tv_comment" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       	android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_detail"
+        android:text="234234"
+        android:textColor="#ff0000"/>
+    
+
+</RelativeLayout>

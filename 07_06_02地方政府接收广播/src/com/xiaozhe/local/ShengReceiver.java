@@ -1,0 +1,22 @@
+package com.xiaozhe.local;
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.util.Log;
+import android.widget.Toast;
+
+public class ShengReceiver extends BroadcastReceiver {
+
+	@Override
+	public void onReceive(Context context, Intent intent) {
+		// TODO Auto-generated method stub
+		
+		String text = getResultData();
+		Log.i("local","省政府收到广播:"+text);
+		Toast.makeText(context, "省政府收到广播:"+text, 0).show();
+		setResultData("发放大米80公斤");
+
+	}
+
+}

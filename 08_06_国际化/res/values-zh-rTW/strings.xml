@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">08_06_国际化</string>
+    <string name="hello_world">歡迎訪問中國台灣</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+    <TextView 
+        style="@style/name_style" 
+        android:id="@+id/tv_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="姓名"
+        android:textSize="20sp"
+       	/>
+    
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        
+        <TextView  
+        style="@style/salary_style"
+        android:id="@+id/tv_salary"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="工资"/>
+            
+        <TextView  
+        style="@style/phone_style"
+        android:id="@+id/tv_phone"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="电话"/>
+        
+    </LinearLayout>
+    
+
+</RelativeLayout>

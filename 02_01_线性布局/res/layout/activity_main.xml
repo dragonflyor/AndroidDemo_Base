@@ -1,0 +1,72 @@
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaozhe.com.MainActivity"
+  	android:orientation="vertical"
+    >
+    <LinearLayout 
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#ff00ddff"/>
+        <TextView 
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"/>
+        <TextView 
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"/>
+       <TextView 
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#ffcc0000"/>"
+        
+    </LinearLayout>
+    
+     <LinearLayout 
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+       
+        <TextView 
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/background_dark"/>
+        <TextView 
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/white"/>
+        <TextView 
+           	android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"/>
+       <TextView  
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="#ffcc0000"/>
+        
+    </LinearLayout>
+    
+    
+    
+</LinearLayout>
+
+

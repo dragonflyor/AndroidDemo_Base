@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.xiaozhe.bujiananimation.MainActivity$PlaceholderFragment" >
+	<LinearLayout android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    
+	    <Button android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="平移"
+	        android:onClick="ontranslate"
+	    />
+	    
+	    <Button android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="缩放"
+	        android:onClick="onscale"
+	    />
+	    <Button android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="缩放"
+	        android:onClick="onalpha"
+	    />
+	    <Button android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="旋转"
+	        android:onClick="onrotate"
+	    />
+	    <Button android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="一起飞"
+	        android:onClick="onfly"
+	    />
+	</LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_launcher"
+        />
+
+</RelativeLayout>

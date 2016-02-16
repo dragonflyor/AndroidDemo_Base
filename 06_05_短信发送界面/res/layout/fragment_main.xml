@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaozhe.sendmsg.MainActivity$PlaceholderFragment" 
+    android:orientation="vertical">
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+       <EditText
+       	android:id="@+id/ev_ph"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="输入联系人" />
+       
+       <Button android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:text="选择联系人"
+           android:onClick="onselectphone"/>
+        
+    </LinearLayout>
+    
+	<EditText 
+	    android:id="@+id/ev_body"
+	    android:lines="8"
+	    android:hint="输入短信"
+	    android:gravity="bottom"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	
+	<Button android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:text="快速回复"
+           android:onClick="onselectmsg"/>
+	
+	<Button android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:text="发送"
+           />
+
+</LinearLayout>

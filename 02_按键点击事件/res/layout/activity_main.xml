@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaozhe.click.MainActivity" 
+    android:orientation="vertical">
+    
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt1"
+        android:text="按键1"
+        
+        />
+    
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt2"
+        android:text="按键2"
+        
+        />
+    
+      <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点我上网"
+        android:onClick="bt3click"
+       
+        />
+
+    
+ </LinearLayout>

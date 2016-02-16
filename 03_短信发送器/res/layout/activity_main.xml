@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaozhe.msg.MainActivity" >
+    
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/et_phone"
+        android:inputType="phone"
+        android:hint="输入对方号码"
+        android:text="5556"/>
+    
+        <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/et_content"
+        android:hint="输入信息内容"
+        android:lines="8"
+        android:gravity="bottom"
+        android:text="hello ,5556"/>
+        
+        <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="发送"
+        android:onClick="onSend"/>
+        
+    </LinearLayout>
+
+        
+    
+    </RelativeLayout>
+

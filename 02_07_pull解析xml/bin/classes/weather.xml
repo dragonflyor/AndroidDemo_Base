@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<weather>
+	<city>
+		<name>上海</name>
+		<temp>5°</temp>
+		<pm>80</pm>
+	</city>
+
+	<city>
+		<name>北京</name>
+		<temp>-5°</temp>
+		<pm>660</pm>
+	</city>
+
+	<city>
+		<name>西安</name>
+		<temp>12°</temp>
+		<pm>60</pm>
+	</city>
+</weather>

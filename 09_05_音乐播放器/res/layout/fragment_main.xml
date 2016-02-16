@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.xiaozhe.musicplayer.MainActivity$PlaceholderFragment" 
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始" 
+        android:onClick="onplay"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂停" 
+        android:onClick="onpause"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="继续" 
+        android:onClick="oncontinue"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="退出应用" 
+        android:onClick="onexit"/>
+    
+    <SeekBar android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sb"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_progress"
+        android:text="--/--"/>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<LinearLayout 
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.xiaozhe.dialog.MainActivity$PlaceholderFragment" >
+
+    <Button
+        android:id="@+id/bt_ok_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消确认按钮" 
+        android:onClick="onclick1"/>
+    
+    <Button
+        android:id="@+id/bt_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单选弹出框" 
+        android:onClick="onclick2"/>
+    
+   <Button
+        android:id="@+id/bt_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多选弹出框" 
+        android:onClick="onclick3"/>
+
+</LinearLayout>
